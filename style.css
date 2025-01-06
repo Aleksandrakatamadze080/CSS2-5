@@ -1,0 +1,826 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#navigacia {
+  max-width: 1920px;
+  padding: 13px;
+  background: #fbf9ff;
+  margin: 0 auto;
+}
+
+#img {
+  vertical-align: middle;
+  padding: 13px;
+  display: inline-block;
+}
+
+
+
+#ullist {
+  display: inline-block;
+  width: 350px;
+  margin: 0 385px;
+}
+
+
+
+#navUl {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#p,
+#f,
+#o,
+#r {
+  display: inline-block;
+  color: #323232;
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+#buttons {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #6941c6;
+  background: #6941c6;
+  color: #fff;
+  font-size: 14px;
+}
+
+#buttonl {
+  margin-right: auto;
+  display: inline-block;
+}
+
+#container {
+  max-width: 1248px;
+  background: #f1e8ff;
+  padding: 96px;
+  margin-top: 94px;
+  margin: 0 auto;
+}
+/* 
+
+#navigation{
+  margin: oa;
+} */
+
+
+#pricingPlansDiv {
+  padding: 0 32px 32px 32px;
+}
+
+#headPP {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+#paragraphPP {
+  color: #535862;
+  font-size: 24px;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+#hpDiv {
+  width: 768px;
+  margin-bottom: 32px;
+  margin: 0 auto;
+}
+
+#plansMainDiv {
+margin: 0 auto;
+max-width: 1184px;
+
+}
+
+
+#plansDivOne {
+  margin: 0 0 64px 0;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 1px solid #e9eaeb;
+  display: inline-block;
+  height: 589px;
+}
+
+#plansHeadDivOne {
+  padding: 40px 32px 32px 32px;
+  height: 332;
+}
+
+#planOne {
+  border-radius: 9999px;
+  border: 1px solid #e9d7fe;
+  background: #f9f5ff;
+  color: #6941c6;
+  font-size: 14px;
+  padding: 4px 12px;
+}
+#planDivOne {
+  margin: 0 auto;
+  width: 93px;
+}
+
+#priceOne {
+  font-size: 58px;
+  text-align: center;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+#pricePOne {
+  color: #535862;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+#buttonOne {
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  background: #7f56d9;
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 16px;
+  color: white;
+}
+
+#buttonSalesOne {
+  border-radius: 8px;
+  border: 1px solid #d5d7da;
+  background: #fff;
+  color: #414651;
+  font-size: 16px;
+  width: 100%;
+  padding: 12px 18px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+#contentOneOneDiv {
+  width: 100%;
+  padding-top: 32px;
+  border-top: 1px solid #535862;
+}
+
+#pOneOne {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+}
+
+#checkIconOneOne {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#contentOneTwoDiv {
+  width: 100%;
+}
+
+#pOneTwo {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 12px;
+}
+
+#checkIconOneTwo {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#contentOneThreeDiv {
+  width: 100%;
+}
+
+#pOneThree {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 12px;
+}
+
+#checkIconOneThree {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#contentOneFourDiv {
+  width: 100%;
+}
+
+#pOneFour {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 12px;
+}
+
+#checkIconOneFour {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#contentOneFiveDiv {
+  width: 100%;
+}
+
+#pOneFive {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 12px;
+}
+
+#checkIconOneFive {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#plansDivTwo {
+  margin: 0 0 64px 0;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 1px solid #e9eaeb;
+  display: inline-block;
+  margin-left: 32px;
+}
+
+#plansHeadDivTwo {
+  padding: 40px 32px 32px 32px;
+  height: 332;
+}
+
+#planTwo {
+  border-radius: 9999px;
+  border: 1px solid #e9d7fe;
+  background: #f9f5ff;
+  color: #6941c6;
+  font-size: 14px;
+  padding: 4px 12px;
+}
+#planDivTwo {
+  margin: 0 auto;
+  width: 110px;
+}
+
+#priceTwo {
+  font-size: 58px;
+  text-align: center;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+#pricePTwo {
+  color: #535862;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+#buttonTwo {
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  background: #7f56d9;
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 16px;
+  color: white;
+}
+
+#buttonSalesTwo {
+  border-radius: 8px;
+  border: 1px solid #d5d7da;
+  background: #fff;
+  color: #414651;
+  font-size: 16px;
+  width: 100%;
+  padding: 12px 18px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+#contentTwoOneDiv {
+  width: 100%;
+  padding-top: 32px;
+  border-top: 1px solid #535862;
+}
+
+#pTwoOne {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+}
+
+#checkIconTwoOne {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#contentTwoTwoDiv {
+  width: 100%;
+}
+
+#pTwoTwo {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 12px;
+}
+
+#checkIconTwoTwo {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#contentTwoThreeDiv {
+  width: 100%;
+}
+
+#pTwoThree {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 12px;
+}
+
+#checkIconTwoThree {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#contentTwoFourDiv {
+  width: 100%;
+}
+
+#pTwoFour {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 12px;
+}
+
+#checkIconTwoFour {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#contentTwoFiveDiv {
+  width: 100%;
+}
+
+#pTwoFive {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 12px;
+}
+
+#checkIconTwoFive {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#plansDivThree {
+  margin: 0 0 64px 0;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 1px solid #e9eaeb;
+  display: inline-block;
+  height: 589px;
+  margin-left: 32px;
+}
+
+#plansHeadDivThree {
+  padding: 40px 32px 32px 32px;
+  height: 332;
+}
+
+#planThree {
+  border-radius: 9999px;
+  border: 1px solid #e9d7fe;
+  background: #f9f5ff;
+  color: #6941c6;
+  font-size: 14px;
+  padding: 4px 12px;
+}
+#planDivThree {
+  margin: 0 auto;
+  width: 115px;
+}
+
+#priceThree {
+  font-size: 58px;
+  text-align: center;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+#pricePThree {
+  color: #535862;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+#buttonThree {
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  background: #7f56d9;
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 16px;
+  color: white;
+}
+
+#buttonSalesThree {
+  border-radius: 8px;
+  border: 1px solid #d5d7da;
+  background: #fff;
+  color: #414651;
+  font-size: 16px;
+  width: 100%;
+  padding: 12px 18px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+#contentThreeOneDiv {
+  width: 100%;
+  padding-top: 32px;
+  border-top: 1px solid #535862;
+}
+
+#pThreeOne {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+}
+
+#checkIconThreeOne {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#contentThreeTwoDiv {
+  width: 100%;
+}
+
+#pThreeTwo {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 12px;
+}
+
+#checkIconThreeTwo {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#contentThreeThreeDiv {
+  width: 100%;
+}
+
+#pThreeThree {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 12px;
+}
+
+#checkIconThreeThree {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#contentThreeFourDiv {
+  width: 100%;
+}
+
+#pThreeFour {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 12px;
+}
+
+#checkIconThreeFour {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#contentThreeFiveDiv {
+  width: 100%;
+}
+
+#pThreeFive {
+  display: inline-block;
+  vertical-align: middle;
+  color: #535862;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 12px;
+}
+
+#checkIconThreeFive {
+  vertical-align: middle;
+  padding-bottom: 16px;
+}
+
+#questionsDiv {
+  margin-top: 64px;
+  margin-bottom: 64px;
+
+  padding: 32px 0;
+  border-radius: 24px;
+  background: #fff;
+}
+
+#middleDiv {
+  width: 768px;
+  margin: 0 auto;
+}
+
+#questionsHead {
+  text-align: center;
+  font-size: 40px;
+}
+
+#pMiddle {
+  margin-bottom: 32px;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #535862;
+  text-align: center;
+}
+
+#boxOne {
+  width: 776px;
+  border-radius: 16px;
+  background: #e4e4e4;
+  padding: 32px;
+}
+
+#boxTwo {
+  margin-top: 16px;
+  border-radius: 16px;
+  padding: 32px;
+  border: 2px solid #ff2323;
+  background: #ffe5e5;
+  width: 776px;
+}
+
+#boxThree {
+  margin-top: 16px;
+  border-radius: 16px;
+  padding: 32px;
+  width: 776px;
+  background: #e9d7ff;
+}
+
+#boxFour {
+  margin-top: 16px;
+  border-radius: 16px;
+  padding: 32px;
+  width: 776px;
+  background: #f7f4ff;
+}
+
+#boxFive {
+  margin-top: 16px;
+  padding: 32px;
+  width: 776px;
+  border-radius: 16px;
+  border: 4px solid #326dff;
+  background: #dce6ff;
+}
+
+#boxSix {
+  margin-top: 16px;
+  padding: 32px;
+  width: 776px;
+  border-radius: 16px;
+  background: #ffd5e7;
+}
+
+#groupImgOne, #groupImgTwo, #groupImgThree, #groupImgFour, #groupImgFive, #groupImgSix {
+  vertical-align: middle;
+  width: 24px;
+  margin-bottom: 75px;
+}
+
+#groupImgTwo {
+  margin-bottom: 60px;
+}
+
+#boxHeadOne, #boxHeadTwo, #boxHeadThree, #boxHeadFour, #boxHeadFive, #boxHeadSix {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+#boxParagraphOne, #boxParagraphTwo, #boxParagraphThree, #boxParagraphFour, #boxParagraphFive, #boxParagraphSix {
+  color: #535862;
+  font-size: 16px;
+  margin-top: 8px;
+  font-family: Inter;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#textOneDiv, #textTwoDiv, #textThreeDiv, #textFourDiv, #textFiveDiv, #textSixDiv {
+  padding-left: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 656px;
+}
+
+
+#footDiv {
+    margin: 0 auto;
+    border-radius: 24px;
+    background: #FFF;
+    padding: 32px 0;
+}
+
+#footTextDiv {
+    
+    margin: 0 auto;
+}
+
+#footHead {
+    text-align: center;
+    font-size: 40px
+}
+
+#footP {
+    padding-top: 20px;
+    text-align: center;
+    color: #535862;
+    font-size: 24px;
+    margin-bottom: 56px;
+}
+
+#cardsDiv {
+    
+    padding: 0 32px;
+}
+
+#cardOneDiv, #cardTwoDiv, #cardThreeDiv, #cardFourDiv {
+    border-radius: 12px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 32px;
+}
+
+#cardOneH, #cardTwoH,  #cardThreeH,  #cardFourH {
+    color: #181D27;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#nameOne, #nameTwo, #nameThree, #nameFour {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    
+
+}
+
+#cardImgOne, #cardImgTwo, #cardImgThree, #cardImgFour {
+    vertical-align: middle;
+    margin-right: 12px;
+    
+}
+
+#cardPOne, #cardPTwo, #cardPThree, #cardPFour {
+    display: inline-block;
+
+}
+
+#logoOneDiv, #logoTwoDiv  {
+  
+    display: inline-block;
+    margin-right: auto;
+    width: 144px;
+    vertical-align: middle;
+   
+}
+#logoFourDiv {
+  width: 144px;
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 35px;
+}
+#logoThreeDiv {
+  width: 144px;
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+
+
+#contdiv { 
+  max-width: 1248px;
+  margin: 0 auto;
+}
+
+#infoOne, #infoTwo, #infoThree, #infoFour {
+  display: inline-block;
+  padding-top: 5px;
+}
+
+
+
+#infoOneDiv, #infoTwoDiv, #infoThreeDiv, #infoFourDiv {
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+
+h5 {
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#nameDivOne, #nameDivTwo, #nameDivThree, #nameDivFour {
+  width: 142px;
+  display: inline-block;
+}
+
+#tickFour {
+  vertical-align: middle;
+}
+
+#tickOne, #tickTwo, #tickThree, #tickThree {
+  vertical-align: middle;
+}
+
+#headerTwo, #headerThree,  #headerFour, #headerOne {
+  width: 400px;
+  
+}
+  #headerOne,  #headerThree,  #headerFour {
+    padding-bottom: 23px;
+}
+
+
+#cardOneCardTwo {
+   height: 250px;
+}
+  
+
+
+#cardThreecardFour {
+    height: 256px;  
+    margin-top: 10px;
+}
